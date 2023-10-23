@@ -1,17 +1,18 @@
 {
   "name": "piral-debug-webpack5",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "",
   "keywords": [
     "piral"
   ],
   "dependencies": {
-    "@angular/common": "^16.1.0",
-    "@angular/compiler": "^16.1.0",
-    "@angular/core": "^16.1.0",
-    "@angular/platform-browser": "^16.1.0",
-    "@angular/platform-browser-dynamic": "^16.1.0",
-    "@angular/router": "^16.1.0",
+    "@angular/common": "16.1.4",
+    "@angular/compiler": "16.1.4",
+    "@angular/core": "16.1.4",
+    "@angular/platform-browser": "16.1.4",
+    "@angular/platform-browser-dynamic": "16.1.4",
+    "@angular/router": "16.1.4",
+    "@angular/forms": "16.1.4",
     "core-js": "^3.19.0",
     "piral": "1.3.1",
     "piral-base": "1.3.1",
@@ -22,7 +23,8 @@
     "react-dom": "^18",
     "react-router": "^5",
     "react-router-dom": "^5",
-    "rxjs": "~7.8.0"
+    "rxjs": "~7.8.0",
+    "zone.js": "^0.13.0"
   },
   "scripts": {
     "start": "piral debug",
@@ -38,7 +40,10 @@
       "@angular/core": "",
       "@angular/platform-browser": "",
       "@angular/platform-browser-dynamic": "",
+      "@angular/router": "",
+      "@angular/forms": "",
       "piral-ng/common": "",
+      "piral-ng-common": "",
       "rxjs": "",
       "zone.js": ""
     },

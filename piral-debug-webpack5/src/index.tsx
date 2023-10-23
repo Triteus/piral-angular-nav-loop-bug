@@ -1,5 +1,5 @@
-import 'core-js/proposals/reflect-metadata';
 import '@angular/compiler';
+import 'core-js/proposals/reflect-metadata';
 import 'zone.js';
 
 import * as React from 'react';
